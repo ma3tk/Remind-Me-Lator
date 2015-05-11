@@ -13,6 +13,9 @@
 		F74B8A391AFD0807003447F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74B8A381AFD0807003447F5 /* Images.xcassets */; };
 		F74B8A3C1AFD0807003447F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74B8A3A1AFD0807003447F5 /* LaunchScreen.xib */; };
 		F74B8A481AFD0807003447F5 /* RemindMeLatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B8A471AFD0807003447F5 /* RemindMeLatorTests.swift */; };
+		F7BDF0AE1B00E0DF009002C9 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF0AD1B00E0DF009002C9 /* TodoTableViewController.swift */; };
+		F7BDF0B01B00E42C009002C9 /* TodoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF0AF1B00E42C009002C9 /* TodoDataManager.swift */; };
+		F7BDF0B21B00EB3B009002C9 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF0B11B00EB3B009002C9 /* TodoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		F74B8A411AFD0807003447F5 /* RemindMeLatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindMeLatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74B8A461AFD0807003447F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74B8A471AFD0807003447F5 /* RemindMeLatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeLatorTests.swift; sourceTree = "<group>"; };
+		F7BDF0AD1B00E0DF009002C9 /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		F7BDF0AF1B00E42C009002C9 /* TodoDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDataManager.swift; sourceTree = "<group>"; };
+		F7BDF0B11B00EB3B009002C9 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				F74B8A381AFD0807003447F5 /* Images.xcassets */,
 				F74B8A3A1AFD0807003447F5 /* LaunchScreen.xib */,
 				F74B8A2F1AFD0807003447F5 /* Supporting Files */,
+				F7BDF0AD1B00E0DF009002C9 /* TodoTableViewController.swift */,
+				F7BDF0AF1B00E42C009002C9 /* TodoDataManager.swift */,
+				F7BDF0B11B00EB3B009002C9 /* TodoTableViewCell.swift */,
 			);
 			path = RemindMeLator;
 			sourceTree = "<group>";
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74B8A341AFD0807003447F5 /* ViewController.swift in Sources */,
+				F7BDF0AE1B00E0DF009002C9 /* TodoTableViewController.swift in Sources */,
 				F74B8A321AFD0807003447F5 /* AppDelegate.swift in Sources */,
+				F7BDF0B21B00EB3B009002C9 /* TodoTableViewCell.swift in Sources */,
+				F7BDF0B01B00E42C009002C9 /* TodoDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 				F74B8A4D1AFD0807003447F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74B8A4E1AFD0807003447F5 /* Build configuration list for PBXNativeTarget "RemindMeLatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				F74B8A501AFD0807003447F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
